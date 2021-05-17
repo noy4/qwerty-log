@@ -6,7 +6,7 @@ module.exports = {
       name: `Qwerty`,
       summary: `Qwerty is a nice guy.`,
     },
-    description: `A tech blog by qwerty.`,
+    description: `A tech blog by Qwerty.`,
     siteUrl: `https://noy4.github.io/qwerty-log/`,
     social: {
       twitter: `noy_qwerty`,
@@ -121,7 +121,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `static/favicon/apple-touch-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/qwerty-log.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-react-helmet`,

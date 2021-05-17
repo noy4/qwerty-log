@@ -58,6 +58,10 @@ const Seo = ({ description, lang, meta, title, isRoot }) => {
           content: `website`,
         },
         {
+          property: `og:image`,
+          content: `https://noy4.github.io/qwerty-log/icons/icon-512x512.png`,
+        },
+        {
           name: `twitter:card`,
           content: `summary`,
         },
