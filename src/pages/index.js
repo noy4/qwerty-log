@@ -11,7 +11,7 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <Seo title="All posts" />
+      <Seo title="All posts" isRoot />
       <div className="flex-col sm:flex-row flex items-center sm:justify-between mb-16 sm:mb-12">
         <h1 className="main-heading sm:w-48 text-black">
           <Link to="/">{siteTitle}.</Link>

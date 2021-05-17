@@ -4,6 +4,7 @@ import React from "react"
 // Components
 import { Helmet } from "react-helmet"
 import Layout from "../components/layout"
+import Seo from "../components/seo"
 import Tag from "../components/tag"
 
 const TagsPage = ({
@@ -16,7 +17,7 @@ const TagsPage = ({
   location,
 }) => (
   <Layout location={location}>
-    <Helmet title={title} />
+    <Seo title="Tags" />
     <div>
       <h1 className="mt-0">Tags</h1>
       <ul className="flex flex-wrap">

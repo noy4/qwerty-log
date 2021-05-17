@@ -34,7 +34,7 @@ const Bio = () => {
         A tech blog written by{" "}
         <a
           href="https://twitter.com/noy_qwerty/"
-          className="underline hover:text-red-500 duration-200 transition-colors"
+          className="hover:text-red-500 duration-200 transition-colors"
           target="_blank"
           rel="noopener noreferrer"
         >
