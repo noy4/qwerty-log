@@ -116,7 +116,7 @@ module.exports = {
       options: {
         name: `Qwerty Log`,
         short_name: `Qwerty Log`,
-        start_url: `/`,
+        start_url: `/qwerty-log/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
