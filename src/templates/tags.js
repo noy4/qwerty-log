@@ -1,28 +1,23 @@
+// Components
 import { graphql, Link } from "gatsby"
-import * as React from "react"
-import Bio from "../components/bio"
+import React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import TagList from "../components/tag-list"
 
-const BlogIndex = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata?.title || `Title`
-  const posts = data.allMarkdownRemark.nodes
+const Tags = ({ pageContext, data, location }) => {
+  const { tag } = pageContext
+  const { nodes: posts, totalCount } = data.allMarkdownRemark
+  const tagHeader = `"${tag}" に関する投稿（${totalCount}）`
 
   return (
-    <Layout location={location} title={siteTitle}>
-      <Seo title="All posts" />
-      <div className="flex-col sm:flex-row flex items-center sm:justify-between mb-16 sm:mb-12">
-        <h1 className="main-heading sm:w-48 text-black">
-          <Link to="/">{siteTitle}.</Link>
-        </h1>
-        <Bio />
-      </div>
-
-      <ol>
+    <Layout location={location}>
+      <Seo title={`"${tag}" に関する投稿`} />
+      <h1>{tagHeader}</h1>
+      <ul>
         {posts.map(post => {
           const { slug } = post.fields
-          const title = post.frontmatter.title || slug
+          const { title } = post.frontmatter
 
           return (
             <li key={slug}>
@@ -31,7 +26,7 @@ const BlogIndex = ({ data, location }) => {
                 itemScope
                 itemType="http://schema.org/Article"
               >
-                <header className="mb-2">
+                <header>
                   <h2>
                     <Link to={slug} itemProp="url">
                       <span itemProp="headline" className="hover:underline">
@@ -53,30 +48,27 @@ const BlogIndex = ({ data, location }) => {
             </li>
           )
         })}
-      </ol>
+      </ul>
     </Layout>
   )
 }
 
-export default BlogIndex
+export default Tags
 
 export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+  query($tag: String) {
+    allMarkdownRemark(
+      limit: 2000
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { frontmatter: { tags: { in: [$tag] } } }
+    ) {
+      totalCount
       nodes {
-        excerpt(truncate: true, pruneLength: 80)
         fields {
           slug
         }
         frontmatter {
-          date(fromNow: true, locale: "ja")
           title
-          description
           tags
         }
       }

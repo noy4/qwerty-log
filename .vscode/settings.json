@@ -1,0 +1,15 @@
+{
+  "files.exclude": {
+    ".vscode": false,
+    ".cache": true,
+    ".gitignore": true,
+    ".prettierignore": true,
+    ".prettierrc": false,
+    "LICENSE": true,
+    "node_modules": true,
+    "package-lock.json": true,
+    "public": true,
+    "README.md": false
+  },
+  "css.lint.unknownAtRules": "ignore"
+}

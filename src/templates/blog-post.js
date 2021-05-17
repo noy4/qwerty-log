@@ -1,9 +1,8 @@
+import { graphql, Link } from "gatsby"
 import * as React from "react"
-import { Link, graphql } from "gatsby"
-
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import TagList from "../components/tag-list"
 
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
@@ -21,29 +20,19 @@ const BlogPostTemplate = ({ data, location }) => {
         itemScope
         itemType="http://schema.org/Article"
       >
-        <header>
+        <header className="mb-8">
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
-          <p>{post.frontmatter.date}</p>
+          <TagList post={post} />
         </header>
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}
           itemProp="articleBody"
+          className="blog-body"
         />
         <hr />
-        <footer>
-          <Bio />
-        </footer>
       </article>
-      <nav className="blog-post-nav">
-        <ul
-          style={{
-            display: `flex`,
-            flexWrap: `wrap`,
-            justifyContent: `space-between`,
-            listStyle: `none`,
-            padding: 0,
-          }}
-        >
+      <nav className="blog-post-nav mt-4">
+        <ul className="flex flex-wrap justify-between list-none p-0">
           <li>
             {previous && (
               <Link to={previous.fields.slug} rel="prev">
@@ -83,8 +72,9 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "YYYY年M月D日")
         description
+        tags
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {

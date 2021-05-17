@@ -1,35 +1,27 @@
-import * as React from "react"
 import { Link } from "gatsby"
+import * as React from "react"
 
 const Layout = ({ location, title, children }) => {
-  const rootPath = `${__PATH_PREFIX__}/`
-  const isRootPath = location.pathname === rootPath
-  let header
-
-  if (isRootPath) {
-    header = (
-      <h1 className="main-heading">
-        <Link to="/">{title}</Link>
-      </h1>
-    )
-  } else {
-    header = (
-      <Link className="header-link-home" to="/">
-        {title}
-      </Link>
-    )
-  }
-
   return (
-    <div className="global-wrapper" data-is-root-path={isRootPath}>
-      <header className="global-header">{header}</header>
-      <main>{children}</main>
-      <footer>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a>
+    <>
+      <div className="global-wrapper min-h-screen py-16">
+        <main>{children}</main>
+      </div>
+      <footer className="bg-black text-white flex flex-col justify-center items-center pt-4 pb-4">
+        <Link to="/">Home</Link>
+        <small className="text-gray-500 mt-2">
+          © {new Date().getFullYear()}
+          {` `}
+          <a
+            href="https://twitter.com/noy_qwerty/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Qwerty
+          </a>
+        </small>
       </footer>
-    </div>
+    </>
   )
 }
 
