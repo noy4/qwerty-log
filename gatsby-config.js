@@ -1,14 +1,15 @@
 module.exports = {
+  pathPrefix: `/qwerty-log`,
   siteMetadata: {
     title: `Qwerty Log`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Qwerty`,
+      summary: `Qwerty is a nice guy.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `A tech blog by qwerty.`,
+    siteUrl: `https://noy4.github.io/qwerty-log/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `noy_qwerty`,
     },
   },
   plugins: [
@@ -116,7 +117,7 @@ module.exports = {
       options: {
         name: `Qwerty Log`,
         short_name: `Qwerty Log`,
-        start_url: `/qwerty-log/`,
+        start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,

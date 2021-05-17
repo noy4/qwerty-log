@@ -31,13 +31,14 @@ const Seo = ({ description, lang, meta, title, isRoot }) => {
 
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
+  const siteTitle = isRoot ? defaultTitle : title
 
   return (
     <Helmet
       htmlAttributes={{
         lang,
       }}
-      title={isRoot ? defaultTitle : title}
+      title={siteTitle}
       titleTemplate={isRoot || !defaultTitle ? null : `%s | ${defaultTitle}`}
       meta={[
         {
@@ -46,7 +47,7 @@ const Seo = ({ description, lang, meta, title, isRoot }) => {
         },
         {
           property: `og:title`,
-          content: title,
+          content: siteTitle,
         },
         {
           property: `og:description`,
@@ -66,7 +67,7 @@ const Seo = ({ description, lang, meta, title, isRoot }) => {
         },
         {
           name: `twitter:title`,
-          content: title,
+          content: siteTitle,
         },
         {
           name: `twitter:description`,
