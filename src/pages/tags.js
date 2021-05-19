@@ -1,8 +1,6 @@
 import { graphql } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-// Components
-import { Helmet } from "react-helmet"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Tag from "../components/tag"
@@ -10,9 +8,6 @@ import Tag from "../components/tag"
 const TagsPage = ({
   data: {
     allMarkdownRemark: { group },
-    site: {
-      siteMetadata: { title },
-    },
   },
   location,
 }) => (

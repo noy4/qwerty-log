@@ -13,7 +13,7 @@ const Tags = ({ pageContext, data, location }) => {
   return (
     <Layout location={location}>
       <Seo title={`"${tag}" に関する投稿`} />
-      <h1>{tagHeader}</h1>
+      <h1 className="mt-0">{tagHeader}</h1>
       <ul>
         {posts.map(post => {
           const { slug } = post.fields

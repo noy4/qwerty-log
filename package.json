@@ -1,12 +1,8 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "qwerty-log",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
+  "description": "A tech blog written by Qwerty.",
+  "version": "1.0.0",
   "dependencies": {
     "@heroicons/react": "^1.0.1",
     "gatsby": "^3.4.1",
@@ -42,16 +38,6 @@
     "prettier": "2.2.1",
     "tailwindcss": "^2.1.2"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "0BSD",
-  "main": "n/a",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
-  },
   "scripts": {
     "build": "gatsby build --prefix-paths",
     "develop": "gatsby develop",
@@ -59,6 +45,7 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "post": "date=`date '+%Y-%m-%d'` && echo ---'\n'title: 技術ブログ作った'\n'date: ${date}T00:00+09:00'\n'tags: [ブログ, Gatsby]'\n'--- > content/blog/${date}_.md"
   }
 }
