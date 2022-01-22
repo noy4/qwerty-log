@@ -61,6 +61,18 @@ module.exports = {
     //   },
     // },
     {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: ["G-YB4TZEHE23"],
+        pluginConfig: {
+          // Puts tracking script in the head instead of the body
+          head: false,
+          // Setting this parameter is also optional
+          respectDNT: true,
+        },
+      },
+    },
+    {
       resolve: `gatsby-plugin-feed`,
       options: {
         query: `
