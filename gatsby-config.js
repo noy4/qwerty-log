@@ -65,10 +65,7 @@ module.exports = {
       options: {
         trackingIds: ["G-YB4TZEHE23"],
         pluginConfig: {
-          // Puts tracking script in the head instead of the body
           head: true,
-          // Setting this parameter is also optional
-          respectDNT: true,
         },
       },
     },
