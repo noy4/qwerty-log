@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Qwerty Log]]></title><description><![CDATA[A tech blog by Qwerty.]]></description><link>https://noy4.github.io/qwerty-log</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 24 Jan 2022 12:48:12 GMT</lastBuildDate><item><title><![CDATA[ブログ始め方（noteかGatsby）]]></title><description><![CDATA[タダでできる方法2選 方法①: note ステップ① note.com 登録 完了。記事を書け。   方法②: Gatsby ぎゃっつびー 今から作るやつ →デモ ちょっと見た目いじったやつ →Qwerty Log(今君が見てるやつ) だいぶ見た目いじったやつ →https…]]></description><link>https://noy4.github.io/qwerty-log/2022-01-24_ブログ始め方/</link><guid isPermaLink="false">https://noy4.github.io/qwerty-log/2022-01-24_ブログ始め方/</guid><pubDate>Sun, 23 Jan 2022 15:01:00 GMT</pubDate><content:encoded>&lt;p&gt;タダでできる方法2選&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Qwerty Log]]></title><description><![CDATA[A tech blog by Qwerty.]]></description><link>https://noy4.github.io/qwerty-log</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 24 Jan 2022 20:20:58 GMT</lastBuildDate><item><title><![CDATA[ブログ始め方（noteかGatsby）]]></title><description><![CDATA[タダでできる方法2選 方法①: note ステップ① note.com 登録 完了。記事を書け。   方法②: Gatsby ぎゃっつびー 今から作るやつ →デモ ちょっと見た目いじったやつ →Qwerty Log(今君が見てるやつ) だいぶ見た目いじったやつ →https…]]></description><link>https://noy4.github.io/qwerty-log/2022-01-24_ブログ始め方/</link><guid isPermaLink="false">https://noy4.github.io/qwerty-log/2022-01-24_ブログ始め方/</guid><pubDate>Sun, 23 Jan 2022 15:01:00 GMT</pubDate><content:encoded>&lt;p&gt;タダでできる方法2選&lt;/p&gt;
 &lt;h2&gt;方法①: note&lt;/h2&gt;
-&lt;p&gt;ステップ① &lt;a href=&quot;note.com&quot;&gt;note.com&lt;/a&gt; 登録&lt;br&gt;
+&lt;p&gt;ステップ① &lt;a href=&quot;https://note.com&quot;&gt;note.com&lt;/a&gt; 登録&lt;br&gt;
 完了。記事を書け。  &lt;/p&gt;
 &lt;h2&gt;方法②: Gatsby&lt;/h2&gt;
 &lt;img width=&quot;200&quot; src=&quot;https://seeklogo.com/images/G/gatsby-logo-1A245AD37F-seeklogo.com.png&quot;&gt;
@@ -29,20 +29,21 @@
 &lt;li&gt;以下4つのインストールが必要。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Node.js&lt;br&gt;
-Git&lt;br&gt;
-Gatsby CLI&lt;br&gt;
-VSCode&lt;/p&gt;
+&lt;p&gt;Node.js 　　　 プログラミングツール的な&lt;br&gt;
+Git 　　　　　 ファイル変更履歴管理ツール&lt;br&gt;
+Gatsby CLI 　　 Gatsby用ツール&lt;br&gt;
+VSCode 　　　 コード編集ソフト&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;インストール方法の説明はちょっとだるいわ。リンク貼るけん見て。
-&lt;a href=&quot;https://www.gatsbyjs.com/docs/tutorial/part-0/#installation-guide&quot;&gt;インストール方法&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;インストール方法の説明はちょっとだるいわ。リンク貼るけん見て →&lt;a href=&quot;https://www.gatsbyjs.com/docs/tutorial/part-0/#installation-guide&quot;&gt;インストール方法&lt;/a&gt;&lt;br&gt;
+詰まったらドンマイ。ゲームオーバー。&lt;/p&gt;
 &lt;ol start=&quot;2&quot;&gt;
 &lt;li&gt;以下コマンドを実行&lt;/li&gt;
 &lt;/ol&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;gatsby new my-blog-starter https://github.com/gatsbyjs/gatsby-starter-blog&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;わからん人は「パソコン コマンド 実行」で調べてくれ。&lt;code class=&quot;language-text&quot;&gt;my-blog-starter&lt;/code&gt;の部分はパソコンにできるプロジェクト用のフォルダの名前になる（まんまでもいいしあとで変えれる）。ちなみに何をしてるかというとギャッツビーさんが用意してくれてる&lt;a href=&quot;https://github.com/gatsbyjs/gatsby-starter-blog&quot;&gt;ブログスターター&lt;/a&gt;をダウンロードしてる。&lt;/p&gt;
+&lt;p&gt;わからん人は「パソコン コマンド 実行」で調べてくれ。&lt;code class=&quot;language-text&quot;&gt;my-blog-starter&lt;/code&gt;の部分はパソコンにできるプロジェクト用のフォルダの名前になる（まんまでもいいしあとで変えれる）。以下&lt;code class=&quot;language-text&quot;&gt;my-blog-starter&lt;/code&gt;は自分でつけた名前に読み替えてネ&lt;/p&gt;
+&lt;p&gt;ちなみに何をしてるかというとギャッツビーさんが用意してくれてる&lt;a href=&quot;https://github.com/gatsbyjs/gatsby-starter-blog&quot;&gt;ブログスターター&lt;/a&gt;をダウンロードしてる。&lt;/p&gt;
 &lt;ol start=&quot;3&quot;&gt;
-&lt;li&gt;続けて以下コマンド実行&lt;/li&gt;
+&lt;li&gt;以下コマンドを実行&lt;/li&gt;
 &lt;/ol&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;cd my-blog-starter/
 gatsby develop&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -51,11 +52,12 @@ gatsby develop&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h3&gt;記事書く&lt;/h3&gt;
 &lt;p&gt;VSCodeでプロジェクトフォルダを開く。&lt;code class=&quot;language-text&quot;&gt;/content/blog&lt;/code&gt;フォルダの中を見るとなんとなく記事の追加の仕方がわかる。わかったらファイルを追加して記事を書く。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://localhost:8000&quot;&gt;http://localhost:8000&lt;/a&gt; にアクセスすると記事が追加されている。はず。&lt;/p&gt;
-&lt;p&gt;追加できたならばファイルを追加したことを&lt;strong&gt;Git&lt;/strong&gt;（ファイル変更履歴管理ツール）に反映する必要がある。以下コマンドを実行。&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;git add .
+&lt;p&gt;追加できたならばファイルを追加したことを&lt;strong&gt;Git&lt;/strong&gt;（ファイル変更履歴管理ツール）に反映する必要がある。さっき実行したコマンドで実行画面が変なことなってると思うので、別タブを立ち上げて以下コマンドを実行。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;cd my-blog-starter
+git add .
 git commit -m &amp;#39;記事追加したよん&amp;#39;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h3&gt;ネット上に公開&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;http://localhost:8000&quot;&gt;http://localhost:8000&lt;/a&gt; は自分のパソコンからだけアクセスできるインターネット、的なやつ。友達に見せれるようにするにはネット上に公開する必要がある。そのためにまずプロジェクトファイルの中身を&lt;strong&gt;GitHub&lt;/strong&gt;なるサイトにアップロードする必要がある。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://localhost:8000&quot;&gt;http://localhost:8000&lt;/a&gt; は自分のパソコンからだけアクセスできるインターネット、的なやつ。友達に見せれるようにするにはネット上に公開する必要がある。そのためにまずプロジェクトファイルの中身を&lt;strong&gt;GitHub&lt;/strong&gt;なるサイト（登録してネ）にアップロードする必要がある。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com&quot;&gt;GitHub&lt;/a&gt;でリポジトリ（保管場所をカッコつけていった表現）を新規作成&lt;/li&gt;
 &lt;/ol&gt;
@@ -63,17 +65,107 @@ git commit -m &amp;#39;記事追加したよん&amp;#39;&lt;/code&gt;&lt;/pre&gt
 &lt;p&gt;名前だけプロジェクトフォルダ名に合わせてつけたら他は無視。作成をクリック&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://www.gatsbyjs.com/static/94ec685d2adefdf4d2aac5b3364acba9/3d68f/new-repo-options.png&quot; alt=&quot;作成画面&quot;&gt;&lt;/p&gt;
 &lt;ol start=&quot;2&quot;&gt;
-&lt;li&gt;以下コマンドを実行&lt;/li&gt;
+&lt;li&gt;以下コマンドを実行（1行目は読み替えてネ）&lt;/li&gt;
 &lt;/ol&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;git remote add origin https://github.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_REPO_NAME.git
 git branch -M main
 git push -u origin main&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;これでパソコン上のフォルダとGitHubのリポジトリを紐付け、ファイルをアップロードできた。はず。&lt;/p&gt;
+&lt;p&gt;これでパソコン上のフォルダとGitHubのリポジトリを紐付けてファイルをアップロードできた。はず。GitHubのリポジトリのページをリロードしてみてプロジェクトフォルダがアップロードされてるっぽかったらオッケー。&lt;/p&gt;
 &lt;ol start=&quot;3&quot;&gt;
 &lt;li&gt;ネットに公開&lt;/li&gt;
 &lt;/ol&gt;
+&lt;p&gt;上の手順はコードをネット上に置いただけのイメージ。それをいい感じに公開する必要がある。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.gatsbyjs.com/docs/tutorial/part-1/#build-your-site-with-gatsby-cloud&quot;&gt;Gatsbyのサイト&lt;/a&gt;いわく、&lt;strong&gt;Gatsby Cloud&lt;/strong&gt;なるサービスを使うのが一番簡単にネットに公開できるらしい。&lt;/p&gt;
-&lt;p&gt;が、あえて俺は別の道をゆく。&lt;strong&gt;GitHub Pages&lt;/strong&gt;を使う。書いてる途中&lt;/p&gt;</content:encoded></item><item><title><![CDATA[ルネサンスあるある]]></title><description><![CDATA[こんちには。桑崎です。 普段あまりにも運動しなさすぎてですね、これはまずい。と思いまして、去年の8月ごろからジムに通い始めました。 最寄りの駅のそばにでっかいジム、その名も「ルネサンス大橋」がございまして、そちらで日々筋肉と戯れております。 かれこれ…]]></description><link>https://noy4.github.io/qwerty-log/2022-01-23_ルネサンスあるある/</link><guid isPermaLink="false">https://noy4.github.io/qwerty-log/2022-01-23_ルネサンスあるある/</guid><pubDate>Sat, 22 Jan 2022 15:00:00 GMT</pubDate><content:encoded>&lt;p&gt;こんちには。桑崎です。&lt;/p&gt;
+&lt;p&gt;が、あえて俺は別の道をゆく。&lt;strong&gt;GitHub Pages&lt;/strong&gt;を使う。多分Gatsbyで作ったサイトを簡単に公開できるのがGatsby Cloudで、Gatsby以外で作ったサイトをこれまた別のサービスで公開。。とかするとなんか色々散らばってしまう。ので僕は何でサイト作ろうとGitHub Pagesで公開するようにしている。&lt;/p&gt;
+&lt;p&gt;「いや、うち公開したいんこのブログくらいやし。。」て人はさっき貼ったGatsbyのサイトの説明見ながらやるんがいいと思う。ひねくれた人はこれから書くGitHub Pagesで公開する方法でやろう。&lt;/p&gt;
+&lt;h4&gt;GitHub Pagesで公開&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;いろいろ設定&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;プロジェクトフォルダ内に&lt;code class=&quot;language-text&quot;&gt;/.github/workflows/deploy.yml&lt;/code&gt;というファイルを用意する。中身は以下をコピペ&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;name: GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-20.04
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: &amp;#39;14&amp;#39;
+
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles(&amp;#39;**/package-lock.json&amp;#39;) }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - run: npm ci
+      - run: npm run build
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.ref == &amp;#39;refs/heads/main&amp;#39; }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;ちなみに上のコードは「GitHub Pages用の設定はこー書いたらええで」ってまとめてくれてる人がおってその人の&lt;a href=&quot;https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-gatsby&quot;&gt;Gatsbyの場合はこーやで&lt;/a&gt;の部分を使ってる。&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;gatsby-config.js&lt;/code&gt;の頭に以下1行を追加&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;module.exports = {
+  pathPrefix: `/my-blog-starter`, ←この1行を追加
+  siteMetadata: {&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;package.json&lt;/code&gt;の該当部分を以下のように変更&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;- &amp;quot;build&amp;quot;: &amp;quot;gatsby build&amp;quot;,
++ &amp;quot;build&amp;quot;: &amp;quot;gatsby build --prefix-paths&amp;quot;,&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;コミットしてプッシュ（変更履歴管理対象に加え、GitHubにアップロード）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;git add .
+git commit -m &amp;#39;設定追加したお&amp;#39;
+git push -u origin main&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;GitHub上で設定&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;ブログ用に作成したGitHubのリポジトリのページを開く。Settingを押す。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://pages.github.com/images/repo-settings@2x.png&quot; alt=&quot;Setting&quot;&gt;&lt;/p&gt;
+&lt;p&gt;左のタブの下の方のPagesってとこを押す。Sourceを選ぶとこで「gh-pages」を選ぶ(プッシュしてから2分くらい待たんと出てないかも)。Saveを押す。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://github.com/peaceiris/actions-gh-pages/raw/main/images/settings_select.jpg&quot; alt=&quot;Source&quot;&gt;&lt;/p&gt;
+&lt;p&gt;「ここに公開されます！」みたいなのが上らへんに表示されるからそのリンクを開く。2分くらい待つとブログが公開されてる。&lt;/p&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;友達にリンクを送りつける&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;「おい、お前の悪口このブログに毎日書いてくから。よろしくな。」と告げ、URLを送る。友達がブログを読んでくれる。&lt;/p&gt;
+&lt;h3&gt;以上。&lt;/h3&gt;
+&lt;p&gt;でけた？あとは日々君の想いを綴ってくれたまえ。&lt;/p&gt;
+&lt;p&gt;記事追加したり変更したらコミットとプッシュする必要があるんけど、VSCodeの左上らへんのボタンでぽちぽちするやり方もあって楽やけん試してみて。&lt;/p&gt;
+&lt;p&gt;ちなみに世の中のブログは「Wordpress」ってやつで作られがち。&lt;a href=&quot;https://chankuwa.com&quot;&gt;桑日記&lt;/a&gt;はそれで作ってる。テーマみたいなん選んだらめちゃいい感じの見た目になる。サーバーを借りるという作業が必要で年5,000円かかってる。chankuwa.comって名前を使うために年2,000円かかってる。ネット上の家賃的な。どっかのタイミングでGatsbyで用意したブログに記事移行しようかなと企んでる。タダだから。&lt;/p&gt;
+&lt;p&gt;Gatsbyのもー1個いいとこが「Gatsbyでブログ作ってます。」て言うと「え？お前エンジニアかよw」てなる。おすすめ。&lt;/p&gt;
+&lt;p&gt;ぜひ仕事の愚痴を綴ったブログでも作って教えて欲しい。&lt;/p&gt;
+&lt;p&gt;星野源「君の声を聞かせて♪」&lt;br&gt;
+嵐「君だけの音を聞かせてよ♫」&lt;br&gt;
+桑氏「君のブログ読ませてくれん？ﾊｧﾊｧ*///」&lt;/p&gt;
+&lt;p&gt;じゃ、そーゆーことで。&lt;/p&gt;
+&lt;h2&gt;参考&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/gatsbyjs/gatsby-starter-blog&quot;&gt;Gatsbyブログスターター&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://gatsbystarterblogsource.gatsbyjs.io/&quot;&gt;Gatsbyブログのデモ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatsbyjs.com/docs/tutorial/&quot;&gt;Gatsby公式チュートリアル&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatsbyjs.com/docs/tutorial/part-0/#installation-guide&quot;&gt;必要ツールのインストール手順&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatsbyjs.com/docs/tutorial/part-1/#build-your-site-with-gatsby-cloud&quot;&gt;Gatsby Cloudで公開する手順&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-gatsby&quot;&gt;GitHub Pages用の設定はこー書いたらええで&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[ルネサンスあるある]]></title><description><![CDATA[こんちには。桑崎です。 普段あまりにも運動しなさすぎてですね、これはまずい。と思いまして、去年の8月ごろからジムに通い始めました。 最寄りの駅のそばにでっかいジム、その名も「ルネサンス大橋」がございまして、そちらで日々筋肉と戯れております。 かれこれ…]]></description><link>https://noy4.github.io/qwerty-log/2022-01-23_ルネサンスあるある/</link><guid isPermaLink="false">https://noy4.github.io/qwerty-log/2022-01-23_ルネサンスあるある/</guid><pubDate>Sat, 22 Jan 2022 15:00:00 GMT</pubDate><content:encoded>&lt;p&gt;こんちには。桑崎です。&lt;/p&gt;
 &lt;p&gt;普段あまりにも運動しなさすぎてですね、これはまずい。と思いまして、去年の8月ごろからジムに通い始めました。&lt;/p&gt;
 &lt;p&gt;最寄りの駅のそばにでっかいジム、その名も「ルネサンス大橋」がございまして、そちらで日々筋肉と戯れております。&lt;/p&gt;
 &lt;p&gt;かれこれ5ヶ月ほど通っているわけですが、ルネサンスに通う人ならわかるであろうあるあるのようなものがいくらかありまして、それをですね今回、皆さんにご紹介しようかと思います。&lt;/p&gt;
