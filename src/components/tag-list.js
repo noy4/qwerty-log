@@ -1,9 +1,11 @@
 import { TagIcon } from "@heroicons/react/solid"
+import { format, formatDistanceToNowStrict } from "date-fns"
+import { ja } from "date-fns/locale"
 import { Link } from "gatsby"
 import React from "react"
 import Tag from "./tag"
 
-const TagList = ({ post }) => {
+const TagList = ({ post, toNow = false }) => {
   return (
     <div className="flex flex-wrap items-center">
       <Link to={`/tags`}>
@@ -14,7 +16,13 @@ const TagList = ({ post }) => {
           <Tag value={tag} />
         </li>
       ))}
-      <small className="flex-grow text-right">{post.frontmatter.date}</small>
+      <small className="flex-grow text-right">
+        {toNow
+          ? formatDistanceToNowStrict(new Date(post.frontmatter.date), {
+              locale: ja,
+            })
+          : format(new Date(post.frontmatter.date), "yyyy年M月d日")}
+      </small>
     </div>
   )
 }

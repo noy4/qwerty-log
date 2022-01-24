@@ -39,7 +39,7 @@ const BlogIndex = ({ data, location }) => {
                       </span>
                     </Link>
                   </h2>
-                  <TagList post={post} />
+                  <TagList post={post} toNow />
                 </header>
                 <section>
                   <p
@@ -77,7 +77,7 @@ export const pageQuery = graphql`
           slug
         }
         frontmatter {
-          date(fromNow: true, locale: "ja")
+          date
           title
           description
           tags
